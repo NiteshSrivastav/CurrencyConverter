@@ -30,7 +30,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7dy-PU-zK6">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nit" translatesAutoresizingMaskIntoConstraints="NO" id="7dy-PU-zK6">
                                                     <rect key="frame" x="9" y="12" width="75" height="89"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="89" id="IJ5-2k-th9"/>
@@ -78,6 +78,8 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="QEm-2h-BU0" secondAttribute="trailing" constant="-6" id="zwZ-Ne-qzT"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <viewLayoutGuide key="safeArea" id="hnP-B1-7Us"/>
                                         <connections>
                                             <outlet property="capitallbl" destination="reD-98-voM" id="XYg-vW-3A4"/>
@@ -130,4 +132,7 @@
             <point key="canvasLocation" x="-322" y="88"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="nit" width="328" height="438"/>
+    </resources>
 </document>

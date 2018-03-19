@@ -67,7 +67,7 @@ var jsonUrl = "https://restcountries.eu/rest/v2/all"
         return cell
         
     }
-
+    
     func fetchData(){
         
         let url = URL(string: jsonUrl)
